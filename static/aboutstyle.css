@@ -1,0 +1,88 @@
+
+#owner{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: rgb(136, 150, 76);
+    font-size: 2.5rem;
+}
+
+
+p{
+    color:white;
+    font-family: 'Questrial', sans-serif;
+    
+
+}
+#breeds{
+    background-color:black;
+}
+h2{
+    text-align: center;
+    color: rgb(136, 150, 76);
+    font-family:'Lobster', cursive;
+    font-size: 2.5rem;
+}
+p1{
+    color:white;
+    font-family:'Questrial', sans-serif;
+    font-size: 1.5rem;
+}
+#classification{
+    background-color: black;
+    color:white;
+}
+h3{
+    color:  rgb(136, 150, 76);
+    font-size: 2.5rem;
+    font-family:'Lobster', cursive;
+    text-align: center;
+    margin:2px;
+}
+.card{
+    display: inline-block;
+    width: 25%;
+    margin: 37px 22px;
+    height: 290px;
+    color:black;
+    font-family: 'Dancing Script', cursive;
+    
+
+
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    font-family: 'Questrial', sans-serif;
+    padding-left: 2px;
+}
+.card-img{
+    height: 250px;
+    padding: 0px 14px;
+    margin: 5px 9px;
+
+
+}
+.card-img img{
+    height: inherit;
+    border-radius: 10px;
+    padding-left: 10px;
+    width: 106%;
+    transition: all 0.5 ease-in-out;
+}
+.card-img img:hover{
+    transform: scale(1.2);
+}
+
+
+h4{
+    color:  rgb(136, 150, 76);
+    font-size: 2rem;
+    font-family:'Lobster', cursive;
+    text-align: center;
+    margin:2px;
+}

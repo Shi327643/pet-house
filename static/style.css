@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+#logo img{
+    height:88px;
+    filter: invert(1);
+    padding: 10px;
+
+
+}
+#navbar{
+    background-color:rgb(14, 13, 13);
+    padding: 0px;
+    
+    
+
+    
+}
+#navbar li a:hover{
+    background-color:black;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+       
+}
+#navbar li {
+     
+list-style: none;
+}
+#navbar li a{
+text-decoration: none;
+padding: 11px 45px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 1.3rem;
+color: white;
+}
+
+#introsection{
+    height: 500px;
+    background-color: red;
+    background: url("/static/bg5.jpg") center/cover no-repeat ;
+    color:rgb(243, 243, 243);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-family: 'Lobster', cursive;
+    
+
+    
+}
+#introsection div.small{
+    font-size: 2.5rem;
+    padding-bottom: 111px;
+}
+h3{
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#missionsection{
+   background-color: black;
+   z-index: -1;
+   opacity: 1.5;
+
+   height: 300px;
+
+}
+#missionsection h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Lobster', cursive;
+    color: white;
+
+    
+}
+#missionsection h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 37px 22px;
+    height: 200px;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    
+
+
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    font-family: 'Questrial', sans-serif;
+}
+.card-img{
+    height: 131px;
+    padding: 0px 14px;
+    margin: 5px 9px;
+
+}
+.card-img img{
+    height: inherit;
+    border-radius: 10px;
+}
+
+
+
+#sponsorsection{
+    height: 1188px;
+    background-color:#000000eb;
+    
+     
+}
+
+
+
+
+
+
+#sponsorsection h1{
+    text-align: center;
+    padding-top:7px;
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Lobster', cursive;
+    
+}
+
+
+
+
+#sponsors{
+    height: 280px;
+    max-width: 1500px;
+    margin: 27px auto;
+}
+.spimage{
+    height: 80%;
+    margin:52px;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: all 0.55 ease-in-out;
+}
+.spimage:hover{
+    transform: scale(1.2);
+}
+
+
+#contactsection{
+    background-color:rgb(92, 87, 87);
+    height: 613px;
+    
+
+}
+#contactsection h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family:'Lobster', cursive;
+    color: white;
+}
+.card1{
+    display: inline-block;
+    width: 98%;
+    margin: 13px 22px;
+    height: 549px;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    justify-content: center;
+
+
+}
+.card1-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    font-family: 'Questrial', sans-serif;
+}
+.card1-box p{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    font-family: 'Questrial', sans-serif;
+    margin: 17px;
+
+}
+.card1-box p1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    font-family: 'Questrial', sans-serif;
+    margin: 19px;
+    padding: 11px 14px;
+
+}
+.card1-box p2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    font-family: 'Questrial', sans-serif;
+    margin: 19px;
+    padding: 11px 14px;
+
+}
+#footer{
+    display: flex;
+    background-color: black;
+    height:60px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+
+

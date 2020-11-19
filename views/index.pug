@@ -1,0 +1,67 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+     ul
+      div#logo 
+          img(src="/static/logo1.png")  
+      li #[a(href="/") Home]
+      li #[a(href="/") About us]
+      li #[a(href="/") Booking]
+      li #[a(href="/") Contact us]
+      li #[a(href="/") Play Game]
+
+
+
+  section#introsection
+   div Welcome To Shivam's Dance Accedemy
+   div.small Eat-Sleep-Dance-Repeat
+  
+  section#missionsection
+   h1 Our Mission
+   div.card 
+       h2 Dance Perfection
+       div.card-box
+         div.card-img
+            img(src="/static/pic1 (2).jpg") 
+         div.card-content
+            p We help you to become a dance perfactionalist. All you have to do is join our Accedemy, the best accdemy of ypour town.
+
+   div.card 
+       h2 Dance The Way You like
+       div.card-box
+         div.card-img
+            img(src="/static/pic2 (2).jpg") 
+         div.card-content
+            p Their is no bounding in your dance intrest. We will teach the dance of your intrest.Because we belive everyone should dance the way you like.
+               
+   div.card 
+       h2 Expert teaching
+       div.card-box
+         div.card-img
+            img(src="/static/pic3 (2).jpg") 
+         div.card-content
+            p You will be taught under the guidence of the experts .They will help you to become a successful dancer.
+               
+     
+  
+  
+  section#sponsorsection
+   h1 Our Sponsors
+   div#sponsors
+     img(src="/static/logo8.png", alt="sponsor img", class="spimage")
+     img(src="/static/logo2.png", alt="sponsor img", class="spimage") 
+     img(src="/static/logo5.png", alt="sponsor img", class="spimage") 
+     img(src="/static/logo7.jpg", alt="sponsor img", class="spimage")  
+
+footer#footer 
+   |copyright @ www.shivamdanceacademy All rights || Reserved
+
+
+    
+    
+  script
+      include ../static/index.js

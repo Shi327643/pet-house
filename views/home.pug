@@ -1,0 +1,81 @@
+extends base.pug
+
+block scripts
+  scripts(src="/static/index.js")
+
+block style
+   style 
+      include ../static/style.css 
+
+block content
+  section#introsection
+   div Welcome To The House Of Pets
+   div.small Experience The Innocent Love
+   h3 NOTE : It is a fake website, please do not purchase anything from here. Every details mention in this website is fake...
+  
+  section#missionsection
+   h1 Animals We Have
+   div.card 
+       h2 Dogs
+       div.card-box
+         div.card-img
+            img(src="/static/dog.jpg") 
+         div.card-content
+            p We have different breeds of dogs which are available at suitable price.We have cute puppies and handsome golden retriver.
+
+   div.card 
+       h2 Cats
+       div.card-box
+         div.card-img
+            img(src="/static/cat.jpg") 
+         div.card-content
+            p We have many varieties of cats at suitable price.You can get very cute kittens of different colour.Please buy one pet and experience the innocent love.
+               
+   div.card 
+       h2 Birds
+       div.card-box
+         div.card-img
+            img(src="/static/bird.jpg") 
+         div.card-content
+            p we have different categories of birds available in our shop.Every morning you will awake by listening their voice.
+               
+     
+  
+  
+  section#sponsorsection
+   h1 Pet Stories
+   div#sponsors
+    img(src="/static/pet1.jpg", alt="sponsor img", class="spimage")
+    img(src="/static/pet2.jpg", alt="sponsor img", class="spimage") 
+    img(src="/static/pet3.jpg", alt="sponsor img", class="spimage") 
+    img(src="/static/pet4.jpg", alt="sponsor img", class="spimage") 
+    img(src="/static/pet5.jpg", alt="sponsor img", class="spimage")       
+    img(src="/static/pet6.jpg", alt="sponsor img", class="spimage")       
+    img(src="/static/pet7.jpg", alt="sponsor img", class="spimage")    
+    img(src="/static/pet8.jpg", alt="sponsor img", class="spimage")
+    img(src="/static/pet9.jpg", alt="sponsor img", class="spimage") 
+    
+  section#contactsection 
+    h1 Our Address 
+    div.card1 
+       h2 Address and Phone number
+       div.card1-box 
+         div.card1-content
+            p Address:-"House Of Pets"  , Shastri nagar , New Delhi
+            p1 Phone Number:- 7415635875 ,owner name:- Shivam Sharma
+            p2 Email-id:- shivamkrishnasharma@gmail.com / houseofpets@gmail.com
+            
+                          
+            
+            iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14001.823043351707!2d77.17100182823818!3d28.676010168408464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0265bf322413%3A0x3f7337cf3935112a!2sShastri%20Nagar%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1592814711519!5m2!1sen!2sin" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0")
+
+       
+            
+
+    
+   
+         
+      
+    
+        
+            

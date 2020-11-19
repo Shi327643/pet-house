@@ -1,0 +1,42 @@
+
+#contactinfo{
+    background: url("/static/bg2.png") center/cover no-repeat;
+    z-index: -1;
+    opacity: 0.7;
+}
+h1{
+    text-align: center;
+    margin: 12px 0;
+    font-size: 3.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(156, 91, 33);
+
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.myinput{
+    font-size: 1.3rem;
+    width: 50%;
+    padding: 29px;
+    margin: 12px;
+    border: 2px solid rgb(105, 72, 72);
+    border-radius: 12px;
+
+
+
+}
+.btn{
+    padding: 13px;
+    width: 19%;
+    margin-top: 9px;
+    border: solid rgb(95, 59, 59);
+    border-radius: 13px;
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
